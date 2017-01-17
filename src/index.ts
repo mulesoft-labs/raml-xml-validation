@@ -2,8 +2,6 @@ declare function require(arg: string): any;
 
 var validator = require('xmllint-jsparser');
 
-var fs = require('fs');
-
 export class XMLValidator {
     private schemaObject: any;
 
