@@ -13,12 +13,12 @@
   },
   "typings": "./dist/index.d.ts",
   "dependencies": {
-    "xmllint-jsparser": "^0.0.3"
+    "xmllint-jsparser": "0.0.3"
   },
   "devDependencies": {
     "typescript": "2.5.2",
     "rimraf": "*",
-    "json-loader": "^0.5.7",
-    "webpack": "^1.15.0"
+    "json-loader": "0.5.7",
+    "webpack": "1.15.0"
   }
 }
