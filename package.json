@@ -1,6 +1,6 @@
 {
   "name": "raml-xml-validation",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && tsc",
