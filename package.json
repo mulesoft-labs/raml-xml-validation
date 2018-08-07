@@ -2,6 +2,7 @@
   "name": "raml-xml-validation",
   "version": "0.0.14",
   "main": "dist/index.js",
+  "license": "Apache-2.0",
   "scripts": {
     "build": "rimraf dist && tsc",
     "buildBrowserPublishNpm": "node generateBrowserVersion.js --type 'npm'",
