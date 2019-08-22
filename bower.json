@@ -1,5 +1,5 @@
 {
-	"version": "0.0.15",
+	"version": "0.0.16",
 	"name": "raml-xml-validation-browser",
 	"main": "browser_version_bower/index.js",
 	"ignore": [
