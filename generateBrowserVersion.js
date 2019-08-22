@@ -24,7 +24,7 @@ function webPackForBrowserLib() {
 
         output: {
             path: path.resolve(__dirname, isNpm ? "./browser_version" : "./browser_version_bower"),
-            
+
             library: ['RAML.XmlValidation'],
 
             filename: 'index.js',
@@ -42,6 +42,7 @@ function webPackForBrowserLib() {
             }
         ],
         node: {
+            fs: 'empty',
             console: false,
             global: true,
             process: true,

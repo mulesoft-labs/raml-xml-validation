@@ -14,7 +14,7 @@
   },
   "typings": "./dist/index.d.ts",
   "dependencies": {
-    "xmllint-jsparser": "0.0.3"
+    "xmllint": "^0.1.1"
   },
   "devDependencies": {
     "typescript": "3.0.1",
