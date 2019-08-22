@@ -20,27 +20,18 @@ if(isNpm) {
 
 function webPackForBrowserLib() {
     var config = {
+        mode: 'production',
         entry: path.resolve(__dirname, "./dist/index.js"),
 
         output: {
             path: path.resolve(__dirname, isNpm ? "./browser_version" : "./browser_version_bower"),
-
-            library: ['RAML.XmlValidation'],
-
+            library: 'RAML.XmlValidation',
             filename: 'index.js',
             libraryTarget: "umd"
         },
 
-        module: {
-            loaders: [
-                { test: /\.json$/, loader: "json" }
-            ]
-        },
-        externals: [
-            {
-                "ws" : true
-            }
-        ],
+        externals: 'ws',
+
         node: {
             fs: 'empty',
             console: false,

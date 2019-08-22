@@ -17,9 +17,9 @@
     "xmllint": "^0.1.1"
   },
   "devDependencies": {
-    "typescript": "3.0.1",
-    "rimraf": "*",
     "json-loader": "0.5.7",
-    "webpack": "1.15.0"
+    "rimraf": "*",
+    "typescript": "3.0.1",
+    "webpack": "^4.39.2"
   }
 }
